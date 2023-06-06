@@ -23,6 +23,7 @@ public abstract class BaseSelenideTest {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.driverManagerEnabled = true;
+        Configuration.headless = false;
         Configuration.reportsFolder = "/build/allure-results";
     }
 
